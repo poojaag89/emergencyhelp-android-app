@@ -1,0 +1,10 @@
+C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\classes\debug
+C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ebc3ba46c51d75cec7403be5275bea393af1fae2.jar
+C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\signpost-jetty6-1.2.1.1-89e3dbf56d5fd27d616f7d42375b850712baccc6.jar
+C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\signpost-commonshttp4-1.2.1.1-df27579fcd4163a613e12b5e219e45248e6106cb.jar
+C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\signpost-core-1.2.1.1-9749927a73a1fc3c89eabf10892a1c9289fecd3b.jar
+C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\gson-2.2.4-e9e7ecb3d0f49811098c996ad4a98d1e2b6a2f93.jar
+C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-bc6d143fcb52d641e90cf8a62551fe7b46c4eb13.jar
+C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\twitter4j-core-4.0.2-5b0e13580c55e1e593b08e13a74232ca2bf574ad.jar
+C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\classes-fea48be3dab4253259b47b417d2cd959806c615c.jar
+C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\classes-4d706fdd808bb1bb41e2de3b146052cee3f6c645.jar

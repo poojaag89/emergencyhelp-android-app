@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\BabithaReddy\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ebc3ba46c51d75cec7403be5275bea393af1fae2.jar" />
+    </item>
+    <item
+        jar="C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\gson-2.2.4-e9e7ecb3d0f49811098c996ad4a98d1e2b6a2f93.jar" />
+    </item>
+    <item
+        jar="C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\classes-4d706fdd808bb1bb41e2de3b146052cee3f6c645.jar" />
+    </item>
+    <item
+        jar="C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\libs\signpost-core-1.2.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="47d92007ca13efd47efad1af94d842ecb5066310">
+        <dex dex="C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\signpost-core-1.2.1.1-9749927a73a1fc3c89eabf10892a1c9289fecd3b.jar" />
+    </item>
+    <item
+        jar="C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-bc6d143fcb52d641e90cf8a62551fe7b46c4eb13.jar" />
+    </item>
+    <item
+        jar="C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\libs\signpost-jetty6-1.2.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="278d98035ed45da35eaeac7ebd22d5fc19374187">
+        <dex dex="C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\signpost-jetty6-1.2.1.1-89e3dbf56d5fd27d616f7d42375b850712baccc6.jar" />
+    </item>
+    <item
+        jar="C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\classes-fea48be3dab4253259b47b417d2cd959806c615c.jar" />
+    </item>
+    <item
+        jar="C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\libs\twitter4j-core-4.0.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6555e7c45f5db0006823731b2ddb536d481e11d1">
+        <dex dex="C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\twitter4j-core-4.0.2-5b0e13580c55e1e593b08e13a74232ca2bf574ad.jar" />
+    </item>
+    <item
+        jar="C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\libs\signpost-commonshttp4-1.2.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1e6380adcb5808bfe13a934a2f35bfeed1adbc49">
+        <dex dex="C:\Users\BabithaReddy\Documents\Phase1 (2)\Phase1\app\build\intermediates\pre-dexed\debug\signpost-commonshttp4-1.2.1.1-df27579fcd4163a613e12b5e219e45248e6106cb.jar" />
+    </item>
+
+</items>

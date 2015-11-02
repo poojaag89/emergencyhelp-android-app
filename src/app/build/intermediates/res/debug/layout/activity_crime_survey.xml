@@ -1,0 +1,465 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.phase1.CrimeSurvey">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Murder"
+        android:id="@+id/murder"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"/>
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/murder"
+        android:layout_alignParentRight="true"
+        android:max="5"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/murder0"
+        android:layout_below="@+id/seekBar"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1"
+        android:id="@+id/murder1"
+        android:layout_below="@+id/seekBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="65dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="2"
+        android:id="@+id/murder2"
+        android:layout_below="@+id/seekBar"
+        android:layout_marginLeft="130dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="3"
+        android:id="@+id/murder3"
+        android:layout_below="@+id/seekBar"
+        android:layout_marginLeft="195dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="4"
+        android:id="@+id/murder4"
+        android:layout_below="@+id/seekBar"
+        android:layout_marginLeft="250dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="5"
+        android:id="@+id/murder5"
+        android:layout_below="@+id/seekBar"
+        android:layout_marginLeft="310dp"
+        />
+    <!--MURDER ENDS/ RAPE BEGINS-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Rape"
+        android:id="@+id/rape"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/murder0"
+        android:layout_toRightOf="@+id/murder0"
+        android:layout_toEndOf="@+id/murder0" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar2"
+        android:layout_below="@+id/rape"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:max="5"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/rape0"
+        android:layout_below="@+id/seekBar2"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1"
+        android:id="@+id/rape1"
+        android:layout_below="@+id/seekBar2"
+        android:layout_marginLeft="65dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="2"
+        android:id="@+id/rape2"
+        android:layout_below="@+id/seekBar2"
+        android:layout_marginLeft="130dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="3"
+        android:id="@+id/rape3"
+        android:layout_below="@+id/seekBar2"
+        android:layout_marginLeft="195dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="4"
+        android:id="@+id/rape4"
+        android:layout_below="@+id/seekBar2"
+        android:layout_marginLeft="250dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="5"
+        android:id="@+id/rape5"
+        android:layout_below="@+id/seekBar2"
+        android:layout_marginLeft="310dp"/>
+
+    <!--RAPE ENDS/ THEFT BEGINS-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Theft"
+        android:id="@+id/theft"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/rape0"
+        android:layout_toRightOf="@+id/rape0"
+        android:layout_toEndOf="@+id/rape0" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar3"
+        android:layout_below="@+id/theft"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:max="5"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/theft0"
+        android:layout_below="@+id/seekBar3"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1"
+        android:id="@+id/theft1"
+        android:layout_below="@+id/seekBar3"
+        android:layout_marginLeft="65dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="2"
+        android:id="@+id/theft2"
+        android:layout_below="@+id/seekBar3"
+        android:layout_marginLeft="130dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="3"
+        android:id="@+id/theft3"
+        android:layout_below="@+id/seekBar3"
+        android:layout_marginLeft="195dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="4"
+        android:id="@+id/theft4"
+        android:layout_below="@+id/seekBar3"
+        android:layout_marginLeft="250dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="5"
+        android:id="@+id/theft5"
+        android:layout_below="@+id/seekBar3"
+        android:layout_marginLeft="310dp"
+        />
+
+    <!--THEFT ENDS/ AR BEGINS-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Armed Robbery"
+        android:id="@+id/ArmedRobbery"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/theft0"
+        android:layout_toRightOf="@+id/theft0"
+        android:layout_toEndOf="@+id/theft0" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar4"
+        android:layout_below="@+id/ArmedRobbery"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:max="5"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/am0"
+        android:layout_below="@+id/seekBar4"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1"
+        android:id="@+id/am1"
+        android:layout_below="@+id/seekBar4"
+        android:layout_marginLeft="65dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="2"
+        android:id="@+id/am2"
+        android:layout_below="@+id/seekBar4"
+        android:layout_marginLeft="130dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="3"
+        android:id="@+id/am3"
+        android:layout_below="@+id/seekBar4"
+        android:layout_marginLeft="195dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="4"
+        android:id="@+id/am4"
+        android:layout_below="@+id/seekBar4"
+        android:layout_marginLeft="250dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="5"
+        android:id="@+id/am5"
+        android:layout_below="@+id/seekBar4"
+        android:layout_marginLeft="310dp"
+
+        />
+
+
+
+    <!--AM ENDS/ HA BEGINS-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Assault"
+        android:id="@+id/HomeAssault"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/am0"
+        android:layout_toRightOf="@+id/am0"
+        android:layout_toEndOf="@+id/am0" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar5"
+        android:max="5"
+        android:layout_below="@+id/HomeAssault"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/ha0"
+        android:layout_below="@+id/seekBar5"
+        android:layout_marginLeft="10dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1"
+        android:id="@+id/ha1"
+        android:layout_below="@+id/seekBar5"
+        android:layout_marginLeft="65dp"/>
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="2"
+        android:id="@+id/ha2"
+        android:layout_below="@+id/seekBar5"
+        android:layout_marginLeft="130dp"/>
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="3"
+        android:id="@+id/ha3"
+        android:layout_below="@+id/seekBar5"
+        android:layout_marginLeft="195dp"/>
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="4"
+        android:id="@+id/ha4"
+        android:layout_below="@+id/seekBar5"
+        android:layout_marginLeft="250dp"/>
+    />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="5"
+        android:id="@+id/ha5"
+        android:layout_below="@+id/seekBar5"
+        android:layout_marginLeft="310dp"/>
+    />
+
+
+
+
+    <!--HA ENDS-->
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/submit"
+        android:layout_alignParentBottom="true"
+       
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip>>"
+        android:id="@+id/skip"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginLeft="200dp"/>
+
+
+
+
+
+</RelativeLayout><!-- From: file:/C:/Users/BabithaReddy/Documents/Phase1%20(2)/Phase1/app/src/main/res/layout/activity_crime_survey.xml -->
